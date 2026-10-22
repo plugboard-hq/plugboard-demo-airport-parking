@@ -1,7 +1,7 @@
 [project]
-name = "plugboard-demo"
+name = "plugboard-demo-airport-parking"
 version = "0.1.0"
-description = "A Plugboard instance: a roastery's data team and a hotel's guests on one host."
+description = "A Plugboard instance: an airport-parking operator's data team, with Hotel Aurora alongside until it gets an instance of its own."
 requires-python = ">=3.12"
 dependencies = [
     "plugboard-ai",

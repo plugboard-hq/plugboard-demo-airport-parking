@@ -1,7 +1,10 @@
-# plugboard-demo
+# plugboard-demo-airport-parking
 
-A [Plugboard](https://github.com/plugboard-hq/plugboard) instance: a roastery's data team
-and a hotel's guests on one host. This repository is what a company owns when it runs
+A [Plugboard](https://github.com/plugboard-hq/plugboard) instance for an airport-parking
+operator's data team. Today its warehouse is still the roastery's seeded SQLite and Hotel
+Aurora's guest organisation sits alongside; next it points the Data agent at the
+airport-parking Postgres warehouse (staging, dimensions, facts) through a Postgres
+connector, and the hotel moves to an instance of its own. This repository is what a company owns when it runs
 Plugboard: which agents, which systems, who it is for. No Plugboard code.
 
 ```
