@@ -1,0 +1,26 @@
+[project]
+name = "plugboard-demo"
+version = "0.1.0"
+description = "A Plugboard instance: a roastery's data team and a hotel's guests on one host."
+requires-python = ">=3.12"
+dependencies = [
+    "plugboard-ai",
+    "plugboard-genbi",
+    "plugboard-weather",
+    "plugboard-hotel",
+]
+
+# Checkouts beside this one while the packages are unpublished; a released instance
+# would pin versions from PyPI and git instead.
+[tool.uv.sources]
+plugboard-ai = { path = "../plugboard", editable = true }
+plugboard-genbi = { path = "../plugboard-genbi", editable = true }
+plugboard-weather = { path = "../plugboard-weather", editable = true }
+plugboard-hotel = { path = "../plugboard-hotel", editable = true }
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 99
+target-version = "py312"

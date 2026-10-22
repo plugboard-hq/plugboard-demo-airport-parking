@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/app.sqlite
+data/demo.sqlite
+.ruff_cache/
+.idea/
